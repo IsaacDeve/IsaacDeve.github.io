@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(39, 52, 71);
+    background-color: rgb(13, 11, 34);
 }
 
 .container {
@@ -7,6 +7,18 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: rgb(44, 44, 75);
-    border-radius: 1px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.titul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 11, 34);
+    height: 20px;
+}
+
+.inputPole {
+    align-items: center;
+    width: 100%;
+
 }
