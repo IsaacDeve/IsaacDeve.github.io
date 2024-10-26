@@ -14,11 +14,23 @@ body {
 .titul {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(13, 11, 34);
-    height: 20px;
+    height: 30px;
+    text-align: center;
+    font-size: 75px;
 }
 
-.inputPole {
-    align-items: center;
-    width: 100%;
+.innercont {
+    padding: 20px;
+    background-color:rgb(13, 11, 34);
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
+.ininnercont {
+
+}
+
+.launcherbg {
+    height: 1px;
 }
