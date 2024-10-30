@@ -15,6 +15,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .buttonsandshit a {
