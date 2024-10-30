@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(13, 11, 34);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(44, 44, 75);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.titul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 11, 34);
+    height: 30px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.innercont {
+    padding: 20px;
+    background-color:rgb(13, 11, 34);
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ininnercont {
+
+}
+
+.launcherbg {
+    border-radius: 10px;
+    height: 100px;
+}
