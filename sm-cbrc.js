@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("additemsinstr1").innerHTML =
             "1. Перейдите в каталог sm-cbrc/craftables/craftables.json и добавьте свой предмет<br>(Это может быть полезно если вы делаете рецепт со своим собственным объектом или объектом из модификаций)<br>";
             document.getElementById("additemsinstr2").innerHTML =
-            "2. Добавьте свой объект<br>↓ ↓ ↓ ↓ ↓ ↓ ";
+            "2. Добавьте свой объект<br>↓ ↓ ↓ ↓ ↓ ↓";
             
         }
         else
