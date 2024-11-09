@@ -17,8 +17,15 @@ body {
     margin: auto;
     text-align: center;
     background-color: rgb(24, 68, 107);
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(1, 132, 255, 0.2);
     margin-bottom: 20px;
+}
+
+.translatebtn {
+    background-color: red;
+    color: yellow;
+    border-radius: 50px;
+    margin: 0;
 }
