@@ -28,8 +28,14 @@ body {
 }
 
 .buttonsandshit img {
-    color: rgb(13, 11, 34);
+    color: rgba(13, 6, 83, 0.466);
     width: 100px;
+    height: 100px;
+}
+
+a:hover {
+    width: 110px;
+    height: 110px;
 }
 
 .clocks {
@@ -41,4 +47,13 @@ body {
 
 .clocks a {
     color: #FF0000;
+}
+
+.sitedruga button {
+    border-radius: 50px;
+    background-color: rgb(90, 96, 145);
+    border-color: transparent transparent transparent;
+
+    color: rgb(168, 176, 240);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
