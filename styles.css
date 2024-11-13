@@ -39,6 +39,7 @@ body {
 
 .buttonsandshit img:hover {
     transform: scale(1.1);
+    border-radius: 20%;
 }
 
 
