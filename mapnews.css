@@ -6,14 +6,24 @@ body {
     
 }
 
+.desc {
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 710px;
+
+    border: 2px solid rgb(54, 54, 54);
+}
+
 .mapint img {
-    height: 40%;
+    height: 100%;
+    width: auto;
+    max-height: 356px;
     border-radius: 10%;
     
     transition: 1s;
 }
 
 .mapint img:hover {
-    transform: scale(1.01);
     border-radius: 5%;
 }
