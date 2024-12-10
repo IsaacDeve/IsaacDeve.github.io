@@ -49,6 +49,42 @@ body {
     border-radius: 100%;
 }
 
+.buttonsandshit2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttonsandshit2 a {
+    text-align: center;
+    color: rgb(172, 179, 229);
+    font-size: 25px;
+}
+
+.buttonsandshit2 img {
+    color: rgba(13, 6, 83, 0.466);
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+
+    transition: 1s;
+}
+
+.buttonsandshit2 img:hover {
+    transform: scale(1.1);
+    border-radius: 20%;
+}
+
+
+.buttonsandshit2 a:hover {
+
+    background-color: #1834703d;
+    border-radius: 100%;
+    ;
+}
+
 .clocks {
     align-items: center;
     display: flex;
