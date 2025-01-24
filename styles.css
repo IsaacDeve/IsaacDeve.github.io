@@ -5,6 +5,21 @@ body {
       position: relative;
 }
 
+.myprojs {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+
+    transition: 1s;
+}
+
+.myproj {
+    text-align: center;
+    color: rgb(154, 162, 226);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .myname {
     color: rgb(90, 96, 145);
     text-align: center;
