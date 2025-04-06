@@ -10,11 +10,24 @@ body {
     background-color: rgb(48, 50, 65);
 }
 
+.desc a {
+    color : rgb(245, 245, 245);
+}
+
 .proctodoc {
     text-align: center;
 }
 
 .proctodoc a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(245, 245, 245);
+}
+
+.proctochangelog {
+    text-align: center;
+}
+
+.proctochangelog a {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(245, 245, 245);
 }
