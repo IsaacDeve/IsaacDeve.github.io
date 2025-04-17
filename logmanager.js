@@ -9,6 +9,8 @@ function renderLog(title, date) {
   }
 
 document.addEventListener("DOMContentLoaded", function() {
+    renderLog("Player movement settings", "16/4/2025");
+    renderLog("Quest list", "12/4/2025");
     renderLog("Quests done", "5/4/2025");
     renderLog("Fully working console", "26/3/2025");
     renderLog("Resizable textures and NPC's", "20/3/2025");
