@@ -8,4 +8,18 @@ h1, h2 {
 
 p, li {
     color: rgb(153, 191, 245);
+    font-size: 20px;
+}
+
+.hlighted {
+    color: rgb(95, 219, 57);
+}
+
+.hljs {
+    background: rgb(39, 40, 53);
+    font-size: 20px;
+}
+
+.content {
+    justify-items: center;
 }

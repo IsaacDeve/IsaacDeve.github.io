@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="brzdoc.css" />
-    </head>
-    <body>
-        <div class="tabs">
-            
-        </div>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <link rel="stylesheet" type="text/css" href="brzdoc.css" />
+</head>
+
+<body>
+    <div class="content">
+        <h1>Breeze: basics</h1>
+        <p>
+            Inside config.hpp there are three most important functions:<br>
+             <span class = "hlighted">OnLaunch()</span>, which runs immediately when the game launches<br>
+             is launched, cannot be redefined. <span class = "hlighted">UpdateVars()</span> updates <br>
+             in-engine variables and should not be redefined, because all the logic will break.<br>
+             And <span class = "hlighted">DoScripts()</span> is a function that updates every frame and<br>
+             can be redefined in a file you work in.<br> 
+             
+            </p>
+
+        <h1>Scenes</h1>
+        <p>
+            You can load scenes using conf::LoadScene(scene_name);
+        </p>
+<pre><code class="cpp">
+#include "config.hpp";
+#include "sceneconf.hpp"
+
+//Inside of sceneconf.hpp, it is defined as
+bool LoadScene(std::string scene, bool ignoreCurrentScene = false)
+
+//ignoreCurrentScene = false means if you try to load a scene that
+//is already loaded, the engine will simply ignore this command.
+
+
+conf::LoadScene("example") // loads maps/MAP_BREEZE_example.json 
+
+//other scene-related things
+
+
+//sceneconf.hpp
+namespace scene {
+    inline Color color = {0,0,0,255};
+    inline Vector2 initSpawnPos = {0,0};
+    inline std::string current = "";
+
+    inline int gridSize = 20;
+
+    inline std::string GetCurrentScene(bool inJson = false)
+    {
+        if (inJson) {
+            return "MAP_BREEZE_" + current + ".json";
+        }
+        return current;
+    }
+}
+
+//Example
+
+</code></pre>
+
+
+
+    </div>
+
+</body>
+
 </html>
