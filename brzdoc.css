@@ -4,11 +4,13 @@ body {
 
 h1, h2 {
     color: rgb(12, 140, 225);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p, li {
     color: rgb(153, 191, 245);
     font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .hlighted {
