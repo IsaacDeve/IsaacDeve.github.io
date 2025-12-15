@@ -54,13 +54,11 @@ body {
 
 .buttonsandshit img:hover {
     transform: scale(1.1);
-    border-radius: 20%;
 }
 
 
 .buttonsandshit a:hover {
 
-    background-color: #1834703d;
     border-radius: 100%;
 }
 
